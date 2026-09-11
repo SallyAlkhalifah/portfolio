@@ -878,7 +878,8 @@
             width: 100%;
             height: 100%;
 
-            object-fit: cover;
+            object-fit: contain;
+            object-position: center;
         }
 
         .project-placeholder {
@@ -2019,218 +2020,296 @@
 
     </section>
 
+<!-- =========================================================
+     PROJECTS
+========================================================= -->
 
-    <!-- =========================================================
-         PROJECTS
-    ========================================================= -->
+<section id="projects" class="section-border">
 
-    <section id="projects" class="section-border">
-
-        <div class="wrap">
+    <div class="wrap">
 
 
-            <div class="projects-header">
+        <div class="projects-header">
 
-                <div>
+            <div>
 
-                    <div class="eyebrow reveal">
-                        Things I've built
-                    </div>
-
-                    <h2 class="section-title reveal">
-                        Selected
-                        <em>projects</em>
-                    </h2>
-
+                <div class="eyebrow reveal">
+                    Things I've built
                 </div>
 
-
-                <p class="section-intro reveal">
-                    A few projects where I worked across the stack —
-                    from interfaces and APIs to AI-powered functionality.
-                </p>
+                <h2 class="section-title reveal">
+                    Selected
+                    <em>projects</em>
+                </h2>
 
             </div>
 
 
-            <!-- =========================
-                 MUNJIZ+
-            ========================== -->
-
-            <article class="project-card reveal">
-
-
-                <div class="project-media">
-
-                    <img
-                        src="images/munjiz.png"
-                        alt="Munjiz+ screenshot"
-                        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-                    >
-
-
-                  
-
-                </div>
-
-
-                <div class="project-body">
-
-
-                    <div class="project-badge gold">
-                        1st Place · Graduation Project
-                    </div>
-
-
-                    <h3 class="project-title">
-                        Munjiz+
-                    </h3>
-
-
-                    <p class="project-description">
-                        A platform for organizing and showcasing
-                        Qassim University's graduation projects, with an
-                        integrated chatbot that helps students find relevant
-                        projects and information efficiently.
-                    </p>
-
-
-                    <div class="project-role">
-
-                        <strong>My contribution:</strong>
-                        Built the web application across the stack,
-                        from the interface and backend to database
-                        integration and chatbot functionality.
-
-                    </div>
-
-
-                    <div class="stack">
-
-                        <span>Python</span>
-
-                        <span>Django</span>
-
-                        <span>JavaScript</span>
-
-                        <span>HTML/CSS</span>
-
-                        <span>SQLite</span>
-
-                    </div>
-
-
-                    <div class="project-links">
-
-
-                        <a
-                            href="https://github.com/SallyAlkhalifah/Munjiz-"
-                            class="project-link"
-                            onclick="return false;"
-                        >
-                            GitHub ↗
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- =========================
-                 RAHAAL
-            ========================== -->
-
-            <article class="project-card reverse reveal">
-
-
-                <div class="project-media">
-
-                    <img
-                        src="images/rahaal.png"
-                        alt="Rahaal screenshot"
-                        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-                    >
-
-
-                   
-
-                </div>
-
-
-                <div class="project-body">
-
-
-                    <div class="project-badge">
-                        AI Travel Planner
-                    </div>
-
-
-                    <h3 class="project-title">
-                        Rahaal
-                    </h3>
-
-
-                    <p class="project-description">
-                        An AI-powered travel planner that generates
-                        personalized itineraries, recommendations, and
-                        location-based suggestions based on user preferences
-                        and trip criteria.
-                    </p>
-
-
-                    <div class="project-role">
-
-                        <strong>My contribution:</strong>
-                        Trained and refined the AI agent to produce the
-                        expected results, while designing and building the
-                        frontend experience end to end.
-
-                    </div>
-
-
-                    <div class="stack">
-
-                        <span>Python</span>
-
-                        <span>Streamlit</span>
-
-                        <span>HTML/CSS</span>
-
-                        <span>OpenAI</span>
-
-                    </div>
-
-
-                    <div class="project-links">
-
-                        <!-- Replace # with your actual GitHub URL -->
-
-                        <a
-                            href="https://github.com/SallyAlkhalifah/Rahhal-AI-Travel-Planning-Project"
-                            class="project-link"
-                            onclick="return false;"
-                        >
-                            GitHub ↗
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </article>
+            <p class="section-intro reveal">
+                A few projects where I worked across the stack —
+                from interfaces and APIs to AI-powered functionality.
+            </p>
 
         </div>
 
-    </section>
+
+        <!-- =========================
+             RESERVA
+        ========================== -->
+
+        <article class="project-card reveal">
 
 
-    <!-- =========================================================
-         SKILLS
-    ========================================================= -->
+            <div class="project-media">
 
-    <section id="skills" class="section-border">
+                <img
+                    src="images/reserva.png"
+                    alt="Reserva screenshot"
+                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                >
+
+            </div>
+
+
+            <div class="project-body">
+
+
+                <div class="project-badge gold">
+                    Full-Stack Appointment Platform
+                </div>
+
+
+                <h3 class="project-title">
+                    Reserva
+                </h3>
+
+
+                <p class="project-description">
+                    A full-stack appointment booking platform designed
+                    for customers, business owners, and employees.
+                    The platform supports service discovery, employee
+                    selection, real-time availability, appointment
+                    booking, and business management.
+                </p>
+
+
+                <div class="project-role">
+
+                    <strong>My contribution:</strong>
+                    Designed and built the platform end to end,
+                    including the frontend, backend, database integration,
+                    booking workflow, employee management, and working
+                    schedules.
+
+                </div>
+
+
+                <div class="stack">
+
+                    <span>C#</span>
+
+                    <span>.NET 10</span>
+
+                    <span>Blazor</span>
+
+                    <span>Entity Framework Core</span>
+
+                    <span>SQL Server</span>
+
+                    <span>HTML/CSS</span>
+
+                </div>
+
+
+                <div class="project-links">
+
+                    <a
+                        href="https://github.com/SallyAlkhalifah/Reserva"
+                        class="project-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GitHub ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- =========================
+             MUNJIZ+
+        ========================== -->
+
+        <article class="project-card reverse reveal">
+
+
+            <div class="project-media">
+
+                <img
+                    src="images/munjiz.png"
+                    alt="Munjiz+ screenshot"
+                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                >
+
+            </div>
+
+
+            <div class="project-body">
+
+
+                <div class="project-badge gold">
+                    1st Place · Graduation Project
+                </div>
+
+
+                <h3 class="project-title">
+                    Munjiz+
+                </h3>
+
+
+                <p class="project-description">
+                    A platform for organizing and showcasing
+                    Qassim University's graduation projects, with an
+                    integrated chatbot that helps students find relevant
+                    projects and information efficiently.
+                </p>
+
+
+                <div class="project-role">
+
+                    <strong>My contribution:</strong>
+                    Built the web application across the stack,
+                    from the interface and backend to database
+                    integration and chatbot functionality.
+
+                </div>
+
+
+                <div class="stack">
+
+                    <span>Python</span>
+
+                    <span>Django</span>
+
+                    <span>JavaScript</span>
+
+                    <span>HTML/CSS</span>
+
+                    <span>SQLite</span>
+
+                </div>
+
+
+                <div class="project-links">
+
+                    <a
+                        href="https://github.com/SallyAlkhalifah/Munjiz-"
+                        class="project-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GitHub ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- =========================
+             RAHAAL
+        ========================== -->
+
+        <article class="project-card reveal">
+
+
+            <div class="project-media">
+
+                <img
+                    src="images/rahaal.png"
+                    alt="Rahaal screenshot"
+                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                >
+
+            </div>
+
+
+            <div class="project-body">
+
+
+                <div class="project-badge">
+                    AI Travel Planner
+                </div>
+
+
+                <h3 class="project-title">
+                    Rahaal
+                </h3>
+
+
+                <p class="project-description">
+                    An AI-powered travel planner that generates
+                    personalized itineraries, recommendations, and
+                    location-based suggestions based on user preferences
+                    and trip criteria.
+                </p>
+
+
+                <div class="project-role">
+
+                    <strong>My contribution:</strong>
+                    Trained and refined the AI agent to produce the
+                    expected results, while designing and building the
+                    frontend experience end to end.
+
+                </div>
+
+
+                <div class="stack">
+
+                    <span>Python</span>
+
+                    <span>Streamlit</span>
+
+                    <span>HTML/CSS</span>
+
+                    <span>OpenAI</span>
+
+                </div>
+
+
+                <div class="project-links">
+
+                    <a
+                        href="https://github.com/SallyAlkhalifah/Rahhal-AI-Travel-Planning-Project"
+                        class="project-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GitHub ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     SKILLS
+========================================================= -->
+
+<section id="skills" class="section-border">
 
     <div class="wrap">
 
@@ -2353,7 +2432,6 @@
     </div>
 
 </section>
-
 
     <!-- =========================================================
          EDUCATION
